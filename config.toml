@@ -1,5 +1,5 @@
 title = ""
-baseURL = "http://wed3v.io"
+baseURL = "https://wed3v.io"
 tags = ["cloud", "devops"]
 languageCode = "fr-FR"
 config = "config.toml"
