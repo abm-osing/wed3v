@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Aiyo</title>
+      <link>http://localhost:1313/gallery/aiyo/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gallery/aiyo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Culture DevOps</title>
       <link>http://localhost:1313/culturedevops/</link>
       <pubDate>Mon, 04 Dec 2017 16:56:27 +0100</pubDate>
@@ -44,6 +53,24 @@ Vous recherchez un prestataire pour mettre en place une démarche DevOps dans vo
 Wed3v développe, déploie et assure le run opérationnel haute disponibilité d’applicatifs web, selon les pratiques DevOps, pour des clients grands comptes : médias, acteurs e-commerce, industries, administrations publiques…
 Nos interlocuteurs :
 Nous mettons notre expérience DevOps au service des DSI et des directions digitales qui, dans le prolongement des méthodes AGILES, veulent améliorer le time to market de leurs projets, tout en assurant la qualité de leurs applicatifs, leur pertinence fonctionnelle et leur résilience.</description>
+    </item>
+    
+    <item>
+      <title>Notre Culture</title>
+      <link>http://localhost:1313/gallery/culture/</link>
+      <pubDate>Mon, 15 May 2017 21:57:17 -0700</pubDate>
+      
+      <guid>http://localhost:1313/gallery/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nos Services</title>
+      <link>http://localhost:1313/gallery/services/</link>
+      <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gallery/services/</guid>
+      <description></description>
     </item>
     
   </channel>
