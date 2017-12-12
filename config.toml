@@ -1,0 +1,47 @@
+title = ""
+baseURL = "https://wed3v.io"
+tags = ["cloud", "devops"]
+languageCode = "fr-FR"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "wed3v"
+disableKinds = [""] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Collaborative Technology"
+    author = "wed3v by Aiyo"
+    description = ""
+    logoBig = "/img/wedev.png"
+    logoSmall = "/img/wedev.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/img/wedev.png"
+    twitter = "wed3v"
+    linkedin = "wed3v"
+    email = "contact@wed3v.io"
+    googleTagManger = ""
+    highlightJS = true
+    copyright = true
+    credit = true
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "We"
+    url  = "/societe"
+    weight = 1
+[[menu.main]]
+    name = "DevOps"
+    url  = "/CultureDevOps"
+    weight = 2
+[[menu.main]]
+    name = "Nos Services"
+    url  = "/nosservices"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4

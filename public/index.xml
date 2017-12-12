@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wed3v by Aiyo on Wed3v</title>
+    <link>https://tomanistor.com/</link>
+    <description>Recent content in wed3v by Aiyo on Wed3v</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>true</copyright>
+    <lastBuildDate>Tue, 31 Oct 2017 22:27:21 -0500</lastBuildDate>
+    
+	<atom:link href="https://tomanistor.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://tomanistor.com/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomanistor.com/cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tomanistor.com/conteneur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomanistor.com/conteneur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tomanistor.com/dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomanistor.com/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tomanistor.com/regie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomanistor.com/regie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tomanistor.com/societe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomanistor.com/societe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deploiement Continu</title>
+      <link>https://tomanistor.com/cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomanistor.com/cloud/</guid>
+      <description>DevOps : une adoption de plus en large et des bénéfices à la clé Le taux d’adoption du DevOps dans les entreprises françaises progresse : selon une étude IDC d’octobre 2016, 50% des grandes entreprises françaises prévoient d’appliquer DevOps en 2017 (elles n’étaient que 30% un an plus tôt).
+Les bénéfices de la mise en place d’une démarche DevOps sont multiples :
+Des processus de déploiement plus fiables et auditables Une amélioration du Time to market Une augmentation de la fréquence de déploiement Une amélioration de la qualité logicielle idc - etude devops</description>
+    </item>
+    
+    <item>
+      <title>migrer</title>
+      <link>https://tomanistor.com/migrer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomanistor.com/migrer/</guid>
+      <description>Nous accompagnons nos clients pour les aider dans leur migration vers le Cloud
+Migration vers AWS, Azure, OpenStack,&amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>
