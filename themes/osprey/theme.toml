@@ -4,7 +4,7 @@ licenselink = "https://github.com/tomanistor/osprey/blob/master/LICENSE.md"
 description = "Clean, responsive one-page portfolio accompanied by a minimalist blog."
 homepage = "https://github.com/tomanistor/osprey"
 tags = ["blog", "portfolio", "gallery", "minimalist", "responsive", "flexbox"]
-features = ["blog", "portfolio", "google analytics"]
+#features = ["blog", "portfolio", "google analytics"]
 min_version = 0.24.1
 
 [author]

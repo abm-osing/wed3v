@@ -1,81 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>wed3v by Aiyo on Wed3v</title>
-    <link>https://tomanistor.com/</link>
-    <description>Recent content in wed3v by Aiyo on Wed3v</description>
+    <title>wed3v by Aiyo on </title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in wed3v by Aiyo on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>fr-FR</language>
     <copyright>true</copyright>
     <lastBuildDate>Tue, 31 Oct 2017 22:27:21 -0500</lastBuildDate>
     
-	<atom:link href="https://tomanistor.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https://tomanistor.com/cd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Culture DevOps</title>
+      <link>http://localhost:1313/culturedevops/</link>
+      <pubDate>Mon, 04 Dec 2017 16:56:27 +0100</pubDate>
       
-      <guid>https://tomanistor.com/cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tomanistor.com/conteneur/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomanistor.com/conteneur/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tomanistor.com/dev/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomanistor.com/dev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tomanistor.com/regie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomanistor.com/regie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tomanistor.com/societe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomanistor.com/societe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deploiement Continu</title>
-      <link>https://tomanistor.com/cloud/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomanistor.com/cloud/</guid>
-      <description>DevOps : une adoption de plus en large et des bénéfices à la clé Le taux d’adoption du DevOps dans les entreprises françaises progresse : selon une étude IDC d’octobre 2016, 50% des grandes entreprises françaises prévoient d’appliquer DevOps en 2017 (elles n’étaient que 30% un an plus tôt).
+      <guid>http://localhost:1313/culturedevops/</guid>
+      <description>DevOps : une adoption de plus en large et des bénéfices à la clé
+Le taux d’adoption du DevOps dans les entreprises françaises progresse : selon une étude IDC d’octobre 2016, 50% des grandes entreprises françaises prévoient d’appliquer DevOps en 2017 (elles n’étaient que 30% un an plus tôt).
 Les bénéfices de la mise en place d’une démarche DevOps sont multiples :
 Des processus de déploiement plus fiables et auditables Une amélioration du Time to market Une augmentation de la fréquence de déploiement Une amélioration de la qualité logicielle idc - etude devops</description>
     </item>
     
     <item>
-      <title>migrer</title>
-      <link>https://tomanistor.com/migrer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Notre Société</title>
+      <link>http://localhost:1313/societe/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://tomanistor.com/migrer/</guid>
-      <description>Nous accompagnons nos clients pour les aider dans leur migration vers le Cloud
-Migration vers AWS, Azure, OpenStack,&amp;hellip;.</description>
+      <guid>http://localhost:1313/societe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nos Services</title>
+      <link>http://localhost:1313/nosservices/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/nosservices/</guid>
+      <description>L’expertise DevOps Wed3v :
+Vous recherchez un prestataire pour mettre en place une démarche DevOps dans votre entreprise ?
+Wed3v développe, déploie et assure le run opérationnel haute disponibilité d’applicatifs web, selon les pratiques DevOps, pour des clients grands comptes : médias, acteurs e-commerce, industries, administrations publiques…
+Nos interlocuteurs :
+Nous mettons notre expérience DevOps au service des DSI et des directions digitales qui, dans le prolongement des méthodes AGILES, veulent améliorer le time to market de leurs projets, tout en assurant la qualité de leurs applicatifs, leur pertinence fonctionnelle et leur résilience.</description>
     </item>
     
   </channel>

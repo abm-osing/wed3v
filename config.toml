@@ -6,7 +6,7 @@ config = "config.toml"
 theme = "osprey"
 canonifyURLS = true
 googleAnalytics = ""
-disqusShortname = "wed3v"
+#disqusShortname = "wed3v"
 disableKinds = [""] # This theme does not currently use "tag" and "category" taxonomies
 
 [Params]
@@ -15,12 +15,12 @@ disableKinds = [""] # This theme does not currently use "tag" and "category" tax
     description = ""
     logoBig = "/img/wedev.png"
     logoSmall = "/img/wedev.png"
-    favicon = "favicon.ico"
+    favicon = "/img.wedev.png"
     opengraphImage = "/img/wedev.png"
     twitter = "wed3v"
     linkedin = "wed3v"
     email = "contact@wed3v.io"
-    googleTagManger = ""
+    #googleTagManger = ""
     highlightJS = true
     copyright = true
     credit = true

@@ -1,7 +1,6 @@
 ---
 title: "Notre Société"
 description: "We"
-slug: "We"
 keywords: ""
 categories:
     - ""
