@@ -63,6 +63,12 @@
     </head>
 
     <body>
+        <script src="scripts/src/konami.js"></script>
+        <script>
+          var easter_egg = new Konami(function() {
+          alert('Konami code! Rejoignez nous en envoyant la reference KC a recrutement@wed3v.io');
+        });
+        </script>
         {{ if .Site.Params.googleTagManager }}
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.googleTagManager }}"
