@@ -8,6 +8,7 @@ canonifyURLS = true
 googleAnalytics = ""
 #disqusShortname = "wed3v"
 disableKinds = [""] # This theme does not currently use "tag" and "category" taxonomies
+enableRobotsTXT = true
 
 [Params]
     tagline = "Collaborative Technology"
