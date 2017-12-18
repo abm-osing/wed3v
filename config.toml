@@ -30,16 +30,16 @@ enableRobotsTXT = true
     cacheBustJS = false
     ajaxFormspree = true
 
-[[menu.main]]
-    name = "We"
-    url  = "/societe"
-    weight = 1
+#[[menu.main]]
+#    name = "We"
+#    url  = "/societe"
+#    weight = 1
 [[menu.main]]
     name = "DevOps"
     url  = "/CultureDevOps"
     weight = 2
 [[menu.main]]
-    name = "Nos Services"
+    name = "Services"
     url  = "/nosservices"
     weight = 3
 [[menu.main]]
