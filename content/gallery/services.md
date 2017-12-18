@@ -1,6 +1,6 @@
 +++
 date = "2017-05-11"
-title = "Nos Services"
+title = "Services"
 image = "wedev.png"
 alt = "Nos Services"
 color = "#212121"

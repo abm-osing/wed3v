@@ -2,7 +2,7 @@
 title: "Nos Services"
 description: "Services"
 slug: ""
-image: "defense_final-1.jpg"
+image: ""
 keywords: ""
 categories:
     - ""
@@ -12,29 +12,25 @@ date: 2017-12-01
 
 ---
 
-L’expertise DevOps Wed3v :
+ Nous mettons notre expérience DevOps au service des DSI et des directions digitales qui, dans le prolongement des méthodes AGILES, veulent améliorer le time to market de leurs projets, tout en assurant la qualité de leurs applicatifs, leur pertinence fonctionnelle et leur résilience.
 
-Vous recherchez un prestataire pour mettre en place une démarche DevOps dans votre entreprise ?  
+ {{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=1" >}}
+ Nos atouts
+ {{< / highlight >}}
 
-Wed3v développe, déploie et assure le run opérationnel haute disponibilité d’applicatifs web, selon les pratiques DevOps, pour des clients grands comptes : médias, acteurs e-commerce, industries, administrations publiques…
+### Nos compétences transversales :
 
-Nos interlocuteurs :
+- développement open source, hébergement haute disponibilité, infogérance, TMA, Support
 
-Nous mettons notre expérience DevOps au service des DSI et des directions digitales qui, dans le prolongement des méthodes AGILES, veulent améliorer le time to market de leurs projets, tout en assurant la qualité de leurs applicatifs, leur pertinence fonctionnelle et leur résilience.
+- Nos développements Agiles, TDD, architecturés en micro-services
 
-Nos atouts :
+- Notre RETEX en industrialisation et automatisation : intégration, livraison et déploiement continus, provisioning et management des infrastructures par le code (infrastructure as code), monitoring, supervision…
 
-Nos compétences transversales : développement open source, hébergement haute disponibilité, infogérance, TMA, Support
+- Nos solutions et nos compétences en matière de Cloud publics et privés
 
-Nos développements Agiles, TDD, architecturés en micro-services
+- Notre expertise des solutions de containérisation et de leur orchestration (Docker, LXC…)
 
-Notre RETEX en industrialisation et automatisation : intégration, livraison et déploiement continus, provisioning et management des infrastructures par le code (infrastructure as code), monitoring, supervision…
-
-Nos solutions et nos compétences en matière de Cloud publics et privés
-
-Notre expertise des solutions de containérisation et de leur orchestration (Docker, LXC…)
-
-Nos services :
+### Nos services :
 
 - Automatisation de votre chaîne : CI/CD, PIC, déploiement, Infrastructure as code…
 - Aide à la décision : pratiques collaboratives, outillages

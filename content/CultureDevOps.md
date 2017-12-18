@@ -23,3 +23,10 @@ idc - etude devops
 ![alt text](/img/visuel-devops1.jpg)
 
 Source : Etude IDC DEvOps, octobre 2016.
+
+
+L’expertise DevOps Wed3v :
+
+Vous recherchez un prestataire pour mettre en place une démarche DevOps dans votre entreprise ?  
+
+Wed3v développe, déploie et assure le run opérationnel haute disponibilité d’applicatifs web, selon les pratiques DevOps, pour des clients grands comptes : médias, acteurs e-commerce, industries, administrations publiques…
