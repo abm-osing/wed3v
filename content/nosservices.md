@@ -14,13 +14,11 @@ date: 2017-12-01
 
  Nous mettons notre expérience DevOps au service des DSI et des directions digitales qui, dans le prolongement des méthodes AGILES, veulent améliorer le time to market de leurs projets, tout en assurant la qualité de leurs applicatifs, leur pertinence fonctionnelle et leur résilience.
 
- {{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=1" >}}
+{{< highlight go "linenos=table,hl_lines=8 17-18,linenostart=1" >}}
  Nos atouts
- {{< / highlight >}}
+{{< / highlight >}}
 
-### Nos compétences transversales :
-
-- développement open source, hébergement haute disponibilité, infogérance, TMA, Support
+ - développement open source, hébergement haute disponibilité, infogérance, TMA, Support
 
 - Nos développements Agiles, TDD, architecturés en micro-services
 
@@ -30,7 +28,9 @@ date: 2017-12-01
 
 - Notre expertise des solutions de containérisation et de leur orchestration (Docker, LXC…)
 
-### Nos services :
+{{< highlight go "linenos=table,hl_lines=8 17-18,linenostart=1" >}}
+ Nos Services
+{{< / highlight >}}
 
 - Automatisation de votre chaîne : CI/CD, PIC, déploiement, Infrastructure as code…
 - Aide à la décision : pratiques collaboratives, outillages
