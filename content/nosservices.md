@@ -59,6 +59,7 @@ Nous vous aidons  à prioriser les préconisations de la littérature en nous fo
 
 
 _mais aussi_
+
 - Mise en place pragmatique du DevOps, fondée sur des solutions concrètes
 - Culture collaborative et pratiques unifiées de vos équipes pour un objectif commun
 - Réponse plus rapide et plus fiable aux besoins métier
