@@ -1,16 +1,73 @@
-image: registry.gitlab.com/pages/hugo:latest
+stages:
+  - Tests
+  - dast
+  - performance
+  - Build
 
-test:
+dast:
+  stage: dast
+  image: owasp/zap2docker-stable
+  variables:
+    website: "https://wed3v.io"
   script:
-  - hugo
-  except:
-  - master
+    - mkdir /zap/wrk/
+    - /zap/zap-baseline.py -J gl-dast-report.json -t $website || true
+    - cp /zap/wrk/gl-dast-report.json .
+  artifacts:
+    paths: [gl-dast-report.json]
 
-pages:
+performance:
+  image: docker:latest
+  stage: performance
+  variables:
+    DOCKER_DRIVER: overlay2
+    DOCKER_HOST: tcp://docker:2375
+  services:
+    - docker:dind
   script:
-  - hugo
+    - mkdir gitlab-exporter
+    - wget -O ./gitlab-exporter/index.js https://gitlab.com/gitlab-org/gl-performance/raw/master/index.js
+    - mkdir sitespeed-results
+    - docker run --shm-size=1g --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io:6.3.0 --plugins.add ./gitlab-exporter --outputFolder sitespeed-results https://wed3v.io
+    - mv sitespeed-results/data/performance.json performance.json
+  artifacts:
+    paths: [performance.json]
+
+Build Hugo:
+  stage: Build
+  image: publysher/hugo
+  script:
+    - hugo
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+      - master
+
+sast:container:
+  stage: dast
+  image: docker:latest
+  variables:
+    DOCKER_DRIVER: overlay2
+    DOCKER_HOST: tcp://docker:2375
+    ## Define two new variables based on GitLab's CI/CD predefined variables
+    ## https://docs.gitlab.com/ee/ci/variables/#predefined-variables-environment-variables
+    CI_APPLICATION_REPOSITORY: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG
+    CI_APPLICATION_TAG: $CI_COMMIT_SHA
+  allow_failure: true
+  services:
+    - docker:dind
+  script:
+    - docker run -d --name db arminc/clair-db:latest
+    - docker run -p 6060:6060 --link db:postgres -d --name clair arminc/clair-local-scan:v2.0.1
+    - apk add -U wget ca-certificates
+    #- docker pull ${CI_APPLICATION_REPOSITORY}:${CI_APPLICATION_TAG}
+    - docker pull publysher/hugo
+    - wget https://github.com/arminc/clair-scanner/releases/download/v8/clair-scanner_linux_amd64
+    - mv clair-scanner_linux_amd64 clair-scanner
+    - chmod +x clair-scanner
+    - touch clair-whitelist.yml
+    #- ./clair-scanner -c http://docker:6060 --ip $(hostname -i) -r gl-sast-container-report.json -l clair.log -w clair-whitelist.yml ${CI_APPLICATION_REPOSITORY}:${CI_APPLICATION_TAG} || true
+    - ./clair-scanner -c http://docker:6060 --ip $(hostname -i) -r gl-sast-container-report.json -l clair.log -w clair-whitelist.yml publysher/hugo || true
+  artifacts:
+    paths: [gl-sast-container-report.json]
